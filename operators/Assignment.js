@@ -64,6 +64,7 @@ if (age >= 18) {
     console.log('not eligible to vote')
 } 
 
+
 //check whether a year is a leaf year
 // 
 // so the leaf year comes every 4 years 
