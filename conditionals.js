@@ -96,7 +96,7 @@ console.log('progema end')
 //executed  
 
 
-// switch
+// switch ----- switch is the short form of if else if 
 
 let day = 5
 
@@ -122,3 +122,42 @@ switch (day) {
         console.log('saturday')
 
 }
+
+
+//ternary operator----is the short form of if else
+//syntax for the ternary operator:
+// condiition?positivecase:negativecase;
+
+// lets see if else condiiton below
+
+let score =75;
+if (score>50){
+    console.log('pass') // if block is required for multiline code 
+} else{
+    console.log('fail')
+} 
+
+let mathScore = 100;
+let result;
+if (mathScore>80) result = 'firstclass'  // if block is not needed when we write 
+// code in single line
+else result = 'second class' 
+
+let scienceScore = 100;
+let result1;
+if (scienceScore>85) {result1 = 'firstclass1'
+console.log (result1)}
+else {result1= 'secondclass1'
+    console.log(result1)
+} 
+ //if we wnat to print in the terminal use the 
+//second line of code and use console.log() and use the if block
+
+
+// the short form of if else condtion is the ternary operator
+
+// syntax:condiition?positivecase:negativecase; 
+
+let physcisScore = 100
+result = physcisScore>75? 'pass': 'fail' 
+console.log(result)
